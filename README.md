@@ -3,7 +3,7 @@
 `=UNIRATE("USD","EUR")` — live currency rates, historical lookups, and EU/UK
 VAT rates as Sheets formulas, backed by the [UniRate API](https://unirateapi.com).
 
-> Get a free API key at [unirateapi.com/signup](https://unirateapi.com/signup) (1,000 requests/day, no card).
+> Get a free API key at [unirateapi.com/register](https://unirateapi.com/register) (1,000 requests/day, no card).
 
 ## Functions
 

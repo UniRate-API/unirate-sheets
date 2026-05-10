@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.1.1 — 2026-05-10
+
+- Fix the signup link to point at `unirateapi.com/register` (was incorrectly
+  written as `/signup` in the sidebar, README, and Marketplace listing copy).
+
 ## v0.1.0 — 2026-05-10
 
 Initial release.

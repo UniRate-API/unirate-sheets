@@ -26,7 +26,7 @@ Add live currency exchange rates, historical FX data, and EU/UK VAT rates to any
 
 1. Install the add-on.
 2. Open **Extensions → UniRate → Set API key…**.
-3. Paste your free key from [unirateapi.com/signup](https://unirateapi.com/signup).
+3. Paste your free key from [unirateapi.com/register](https://unirateapi.com/register).
 4. Use any of the formulas above in any cell.
 
 The API key is stored in the spreadsheet's document properties only — no

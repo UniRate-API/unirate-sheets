@@ -1,6 +1,6 @@
 {
   "name": "unirate-sheets",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "Google Sheets add-on exposing UniRate currency-conversion custom functions (=UNIRATE, =UNIRATE_HISTORICAL, =UNIRATE_TIMESERIES, =UNIRATE_VAT, …).",
   "scripts": {
