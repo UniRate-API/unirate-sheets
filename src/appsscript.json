@@ -1,0 +1,36 @@
+{
+  "timeZone": "Etc/UTC",
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "dependencies": {},
+  "addOns": {
+    "common": {
+      "name": "UniRate — Currency Rates",
+      "logoUrl": "https://raw.githubusercontent.com/UniRate-API/unirate-sheets/main/marketplace/icon-128.png",
+      "useLocaleFromApp": true,
+      "homepageTrigger": {
+        "runFunction": "onHomepage",
+        "enabled": true
+      },
+      "openLinkUrlPrefixes": [
+        "https://unirateapi.com/",
+        "https://www.unirateapi.com/",
+        "https://github.com/UniRate-API/"
+      ]
+    },
+    "sheets": {
+      "homepageTrigger": {
+        "runFunction": "onHomepage",
+        "enabled": true
+      }
+    }
+  },
+  "urlFetchWhitelist": [
+    "https://api.unirateapi.com/"
+  ],
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/script.external_request",
+    "https://www.googleapis.com/auth/script.container.ui",
+    "https://www.googleapis.com/auth/spreadsheets.currentonly"
+  ]
+}

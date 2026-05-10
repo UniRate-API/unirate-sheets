@@ -1,0 +1,6 @@
+# clasp pushes from src/ (set "rootDir": "src" in .clasp.json), so this is
+# scoped to that subtree. Keep test fixtures/docs out of the deployable.
+**/node_modules/**
+**/tests/**
+**/*.test.js
+**/.git/**
